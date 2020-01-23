@@ -1,0 +1,8 @@
+prefix=/home/hyeonbeen/carto_ws/devel_isolated/four_wheel_steering_msgs
+
+Name: four_wheel_steering_msgs
+Description: Description of four_wheel_steering_msgs
+Version: 1.0.0
+Cflags: -I/home/hyeonbeen/carto_ws/devel_isolated/four_wheel_steering_msgs/include -I/usr/include
+Libs: -L/home/hyeonbeen/carto_ws/devel_isolated/four_wheel_steering_msgs/lib 
+Requires: message_runtime std_msgs

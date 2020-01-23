@@ -1,0 +1,8 @@
+prefix=/home/hyeonbeen/carto_ws/install_isolated
+
+Name: urdf_geometry_parser
+Description: Description of urdf_geometry_parser
+Version: 0.0.3
+Cflags: -I/home/hyeonbeen/carto_ws/install_isolated/include
+Libs: -L/home/hyeonbeen/carto_ws/install_isolated/lib -lurdf_geometry_parser
+Requires: roscpp urdf tf2

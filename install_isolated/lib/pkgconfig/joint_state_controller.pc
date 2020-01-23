@@ -1,0 +1,8 @@
+prefix=/home/hyeonbeen/carto_ws/install_isolated
+
+Name: joint_state_controller
+Description: Description of joint_state_controller
+Version: 0.15.0
+Cflags: -I/home/hyeonbeen/carto_ws/install_isolated/include
+Libs: -L/home/hyeonbeen/carto_ws/install_isolated/lib -ljoint_state_controller
+Requires: realtime_tools roscpp hardware_interface pluginlib controller_interface sensor_msgs

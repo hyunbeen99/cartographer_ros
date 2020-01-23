@@ -1,0 +1,4 @@
+# ninja log v5
+0	5721	1579595688	CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o	6617f75ee96d8e41
+5724	5946	1579595688	/home/hyeonbeen/carto_ws/devel_isolated/gripper_action_controller/lib/libgripper_action_controller.so	115d1c6175381d4c
+3	24	0	CMakeFiles/install.util	5dfd7452c2412691

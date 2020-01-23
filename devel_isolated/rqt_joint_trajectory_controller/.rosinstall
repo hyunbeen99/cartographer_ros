@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hyeonbeen/carto_ws/devel_isolated/rqt_joint_trajectory_controller/setup.sh

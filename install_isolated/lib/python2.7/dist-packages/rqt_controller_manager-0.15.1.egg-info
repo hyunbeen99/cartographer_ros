@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rqt_controller_manager
+Version: 0.15.1
+Summary: Graphical frontend for interacting with the controller manager.
+Home-page: http://ros.org/wiki/rqt_controller_manager
+Author: Bence Magyar <bence.magyar.robotics@gmail.com>, Enrique Fernandez <enrique.fernandez.perdomo@gmail.com>, Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>
+Author-email: UNKNOWN
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

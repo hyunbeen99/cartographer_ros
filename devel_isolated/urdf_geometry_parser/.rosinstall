@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hyeonbeen/carto_ws/devel_isolated/urdf_geometry_parser/setup.sh

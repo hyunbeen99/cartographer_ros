@@ -1,0 +1,8 @@
+prefix=/home/hyeonbeen/carto_ws/devel_isolated/joint_limits_interface
+
+Name: joint_limits_interface
+Description: Description of joint_limits_interface
+Version: 0.15.1
+Cflags: -I/home/hyeonbeen/carto_ws/src/ros_control/joint_limits_interface/include
+Libs: -L/home/hyeonbeen/carto_ws/devel_isolated/joint_limits_interface/lib 
+Requires: hardware_interface roscpp urdf

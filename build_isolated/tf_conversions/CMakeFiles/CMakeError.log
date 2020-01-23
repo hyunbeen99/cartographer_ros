@@ -1,0 +1,41 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/hyeonbeen/carto_ws/build_isolated/tf_conversions/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_c34d3"
+[1/2] Building C object CMakeFiles/cmTC_c34d3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c34d3
+FAILED: cmTC_c34d3 
+: && /usr/bin/cc   -rdynamic CMakeFiles/cmTC_c34d3.dir/CheckSymbolExists.c.o  -o cmTC_c34d3   && :
+CMakeFiles/cmTC_c34d3.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+File /home/hyeonbeen/carto_ws/build_isolated/tf_conversions/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/hyeonbeen/carto_ws/build_isolated/tf_conversions/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_5c4d9"
+[1/2] Building C object CMakeFiles/cmTC_5c4d9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5c4d9
+FAILED: cmTC_5c4d9 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create  -rdynamic CMakeFiles/cmTC_5c4d9.dir/CheckFunctionExists.c.o  -o cmTC_5c4d9  -lpthreads && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+

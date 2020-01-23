@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hyeonbeen/carto_ws/devel_isolated/combined_robot_hw/setup.sh
